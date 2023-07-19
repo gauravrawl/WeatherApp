@@ -1,0 +1,160 @@
+body{
+    background: linear-gradient(90deg, #754d8b 50%, #4e5992 100%)
+}
+*{
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+.live{
+        text-decoration: dotted ;
+        color:#635d15;
+    }
+    
+
+.location{
+    
+    text-transform: capitalize;
+    color: rgb(157, 149, 157);
+   
+}
+
+
+.box{
+    width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  
+}
+
+#face{
+    size:500px ;
+}
+.feels{
+    color: #4e5992;
+}
+
+
+
+
+.inputData{
+    width: 40%;
+    height: 70vh;
+    color: gray;
+/* background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);   for multicolor background; */
+    /* background: linear-gradie    nt(120deg, #5433ff, #20bdff, #a5fecb); */
+
+    background: linear-gradient(110deg, #fdb827 40%, #d44abd 70%);
+
+    
+    box-shadow: 5px 5px 25px -5px;
+    border-radius: 80px 20px  80px 20px; 
+}
+
+
+
+.inputbar{
+    width: 50%;
+    height: 7%;
+    margin: 30px;
+    background-color: transparent;
+    box-shadow:  5px 5px 25px -2px;
+    text-align: center;    
+    border-radius: 20px;
+    border: solid;
+    text-transform: capitalize;
+    
+    
+}
+
+
+#weather{
+    width: 19%;
+    height: 25%;
+   margin-top: -300px;
+   margin-left: -400px;    
+}
+
+.temperature{
+    color: rgb(4, 4, 132);
+    font-weight: 750;
+}
+
+.max_min{
+    display: flex;
+    justify-content: center;
+}
+
+.temp2{
+    color: green;
+}
+
+.temp3{
+
+    color: rgb(244, 112, 112);
+    
+}
+
+/* @media screen and (width<= 850px) {
+
+*{
+  justify-content: center;
+}
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.wave{
+    opacity: 0.3;
+    position: absolute;
+    top:120%;
+    left:50%;
+    margin-left: -25rem;
+    margin-top: -20rem;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
+    z-index: 1;
+    color: red;
+
+}
+
+.wave -two{
+    animation: drift 7000ms infinite linear;
+    opacity: 0.1;
+    z-index: 3 !important;
+}
+.wave --three{
+    animation: drift 5000ms infinite linear;
+    opacity: 0.2;
+
+}
+#show{
+    text-transform: capitalize;
+} */
+
+
+
+
+
+
+
+
